@@ -17,3 +17,9 @@ func oldToDrink(age: Double){
 }
 
 iosDev()
+
+func getUserNAme() -> String {
+    let username = "Adam Davidson"
+    return username
+}
+getUserNAme()
