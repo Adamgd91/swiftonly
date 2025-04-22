@@ -23,3 +23,9 @@ func getUserNAme() -> String {
     return username
 }
 getUserNAme()
+
+func adding(sum1: Int , to sum2: Int) -> Int {
+    return sum1 + sum2
+}
+
+adding(sum1: 8, to: 8)
