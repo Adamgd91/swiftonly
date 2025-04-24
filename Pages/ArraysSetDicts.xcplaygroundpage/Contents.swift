@@ -29,8 +29,3 @@ print(books.keys)
 print(books.values)
 
 
-let starGolfers = ["Jack","Tiger","Rory","Arnold"]
-
-for golfer in starGolfers {
-    print(golfer)
-}
