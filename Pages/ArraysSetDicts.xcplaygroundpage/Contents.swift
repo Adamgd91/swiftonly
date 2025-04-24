@@ -1,8 +1,6 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-
 var ages = [11, 32, 22,43, 21, 54, 22]
 var underAged: [Int] = []
 ages.count
@@ -29,3 +27,10 @@ books["LOTR"]
 print(books)
 print(books.keys)
 print(books.values)
+
+
+let starGolfers = ["Jack","Tiger","Rory","Arnold"]
+
+for golfer in starGolfers {
+    print(golfer)
+}
