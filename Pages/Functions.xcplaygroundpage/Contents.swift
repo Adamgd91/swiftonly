@@ -12,7 +12,7 @@ func oldToDrink(age: Double){
     if age > 21 {
         print("Old enough to drink!")
     } else {
-        print("You can't dirnk! haha!")
+        print("You can't dirnk! haha!!")
     }
 }
 
