@@ -28,3 +28,4 @@ func getPhoneType(on phone: Phone) {
 }
 
 getPhoneType(on: .iPhone17)
+
