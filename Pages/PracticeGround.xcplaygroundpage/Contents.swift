@@ -32,3 +32,13 @@ func determineRank(from rank: Int){
     }
 }
 determineRank(from: highScore)
+
+
+var ages: [Int] = [32, 11 ,44, 26, 15]
+ages.sort()
+
+if let oldestAge = ages.last {
+    print("The oldest age is \(oldestAge)!")
+} else {
+    print("No students")
+}
