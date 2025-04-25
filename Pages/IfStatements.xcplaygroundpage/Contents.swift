@@ -14,3 +14,17 @@ if greeting == "hi" {
 }else {
     print("Do Not Be Afraid!")
 }
+
+//----------- ENUM ----------
+
+enum Phone: String {
+    case iPhoneMax = "To Big"
+    case iPhone17 = "The Air is the next big thing!"
+    case MacBookAir = "I want one"
+}
+
+func getPhoneType(on phone: Phone) {
+    print(phone.rawValue)
+}
+
+getPhoneType(on: .iPhone17)
