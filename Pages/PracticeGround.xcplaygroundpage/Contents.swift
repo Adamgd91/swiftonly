@@ -15,3 +15,20 @@ switch favFood {
         print("Everything is good")
 }
 
+let highScore = 45
+
+func determineRank(from rank: Int){
+    switch rank {
+        case 0:
+            print("You suck")
+        case 1..<20:
+            print("Silver League")
+        case 20..<30:
+            print("Gold League")
+        case 30..<40:
+            print("Plat League")
+        default:
+            print("You are in a league of your own!")
+    }
+}
+determineRank(from: highScore)
