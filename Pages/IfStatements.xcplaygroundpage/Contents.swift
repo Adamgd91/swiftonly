@@ -29,3 +29,22 @@ func getPhoneType(on phone: Phone) {
 
 getPhoneType(on: .iPhone17)
 
+enum Golfers {
+    case tiger
+    case jack
+    case adam
+}
+
+func topGolfers(on golfer: Golfers) {
+    switch golfer {
+        case .tiger:
+            print("Tiger Woods is the best!")
+        case .jack:
+            print("Jack is the best!")
+        case .adam:
+            print("Adam is the best golfer ever!")
+    }
+}
+topGolfers(on: .adam)
+
+
