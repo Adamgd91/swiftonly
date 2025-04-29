@@ -43,10 +43,22 @@ if let oldestAge = ages.last {
     print("No students")
 }
 
-
+//--------------------------------------//
 func addOns() -> String {
     let fName = "Adam"
     return fName
 }
 
 addOns()
+//--------------------------------------//
+let fnamess = ["Adam", "Sarah", "Avery"]
+func theFamily() -> [String] {
+    var davidson: [String] = []
+    for names in fnamess {
+        davidson.append(names)
+    }
+    return davidson
+}
+var family = theFamily()
+print(family)
+//--------------------------------------//

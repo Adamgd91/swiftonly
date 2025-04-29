@@ -8,6 +8,7 @@ ages.sort()
 ages.append(69)
 print(ages)
 
+
 for i in ages {
     if i > 33 {
         underAged.append(i)
