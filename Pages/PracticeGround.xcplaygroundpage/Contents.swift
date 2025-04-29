@@ -42,3 +42,11 @@ if let oldestAge = ages.last {
 } else {
     print("No students")
 }
+
+
+func addOns() -> String {
+    let fName = "Adam"
+    return fName
+}
+
+addOns()
